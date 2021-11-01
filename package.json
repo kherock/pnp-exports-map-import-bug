@@ -1,0 +1,11 @@
+{
+  "name": "pnp-exports-map-import-bug",
+  "version": "0.1.0",
+  "workspaces": [
+    "my-package"
+  ],
+  "dependencies": {
+    "my-package": "workspace:*"
+  },
+  "packageManager": "yarn@3.1.0"
+}
